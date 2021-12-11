@@ -1,0 +1,48 @@
+body
+{
+    background-color: #add5fa;
+    color:#fa5f49;
+    font-family: Verdana,  Tahoma, sans-serif;
+}
+
+.caja_cantidad
+{
+    width: 170px;
+    height: 30px;
+    margin: 15px;
+    outline: none;
+    border: 0;
+    
+}
+
+.caja_convertir
+{
+    width: 180px;
+    height: 30px;
+    margin: 15px;
+    outline: none;
+    border: 0;
+}
+
+.caja_convertido
+{
+    width: 180px;
+    height: 30px;
+    margin: 15px;
+    outline: none;
+    border: 0;
+}
+
+.boton
+{
+    width: 90px;
+    height: 30px;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: silver;
+    border-color:grey;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgb(206, 114, 71);
+    color: cornsilk;
+}
