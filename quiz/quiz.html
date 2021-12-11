@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel = "stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div id= "container">
+        <header>
+            <h1> Quiz App </h1>
+            <p>El presente cuestionario contiene preguntas de cultura general, contesta cada una de ellas con suma atención y cuidado</p>
+            <p> Responde las siguientes preguntas: </p>
+        </header>
+
+        <section>
+        <div id = "resultado"></div>
+        <form name= "formulario" onsubmit="return verificarRespuestas()">
+
+            <div id = "pregunta1" class="pregunta1">
+            <h3> 1. La estrella mas grande del sistema solar es: </h3>
+            <input type="radio" name= "p1" value = "a"> <strong> a. </strong> Persei  </br>
+            <input type="radio" name= "p1" value = "b"> <strong> b. </strong> Antares </br>
+            <input type="radio" name= "p1" value = "c"> <strong> c. </strong> El sol </br>
+            <input type="radio" name= "p1" value = "d"> <strong> d. </strong> Leporis </br>
+            </div>
+
+            <div id = "pregunta2" class="pregunta2">
+            <h3> 2. ¿Quien pintó la Mona Lisa? </h3>
+            <input type="radio" name= "p2" value = "a"> <strong> a.</strong> Miguel Angel  </br>
+            <input type="radio" name= "p2" value = "b"> <strong> b.</strong> Leonardo Da Vinci </br>
+            <input type="radio" name= "p2" value = "c"> <strong> c.</strong> Pablo Picasso </br>
+            <input type="radio" name= "p2" value = "d"> <strong> d. </strong> Salvador Dalí </br>
+            </div> 
+
+            <div id = "pregunta3" class="pregunta3">
+            <h3> 3. El grito de Independencia en Colombia fue en el año </h3>
+            <input type="radio" name= "p3" value = "a"> <strong> a.</strong> 1994  </br>
+            <input type="radio" name= "p3" value = "b"> <strong> b.</strong>  1872 </br>
+            <input type="radio" name= "p3" value = "c"> <strong> c.</strong>  1750 </br>
+            <input type="radio" name= "p3" value = "d"> <strong> d.</strong>  1810 </br>
+            </div>
+
+            <div id = "pregunta4" class="pregunta4"> 
+            <h3> 4. Las siglas "ADN" corresponden a: </h3>
+            <input type="radio" name= "p4" value = "a"> <strong> a.</strong>  Alcalino Dioxigenado </br>
+            <input type="radio" name= "p4" value = "b"> <strong> b.</strong> Aluminio Dudoso </br>
+            <input type="radio" name= "p4" value = "c"> <strong> c.</strong> Antigeno Dividido </br>
+            <input type="radio" name= "p4" value = "d"> <strong> d.</strong> Ácido Desoxirribonucleico </br>
+            </div>
+
+            <div id = "pregunta5" class="pregunta5"> 
+            <h3> 5. El llamado "Bogotazo" fue el asesinato de: </h3>
+            <input type="radio" name= "p5" value = "a"> <strong> a. </strong>  Jorge Eliecer Gaitán </br>
+            <input type="radio" name= "p5" value = "b"> <strong> b. </strong> Luis Carlos Galán  </br>
+            <input type="radio" name= "p5" value = "c"> <strong> c. </strong> Simón Bolivar </br>
+            <input type="radio" name= "p5" value = "d"> <strong> d. </strong> Gonzálo Jimenéz de Quesada </br>
+            </div>
+
+            <div id="button" >
+                <input type="button" class="boton" value="Enviar" id="btn-enviar">
+            </div>
+            
+
+        </form>
+        <div> </div>
+        </section>
+     
+    </div>
+    <script src= "quiz.js" ></script>
+</body>
+</html>
