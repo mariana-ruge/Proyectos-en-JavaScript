@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversor.css">
+    <title>Conversor de divisas </title>
+</head>
+<body>
+    <h1> <center> Conversor de divisas </center> </h1>
+
+    <center>
+     <p> <strong>Cantidad</strong> </p>
+      <input type="range" class= "caja_cantidad" id="cantidad" min= "0" max="1000000"
+       value= "0" onchange="convertir()"/>
+    </br>
+       <span id = "valor"> 0 </span> 
+
+    <p> <strong>Convertir de:</strong> </p>
+    <select id = "convertir" class="caja_convertir">
+        <option value= "1"> Peso Colombiano (COP) </option>
+        <option value = "2"> Dolar américano (USD) </option>
+        <option value = "3"> Euro </option>
+    </select>
+
+    <p> <strong> Convertir a: </strong></p>
+    <select id = "convertido" class="caja_convertido">
+        <option value= "1"> Peso Colombiano (COP) </option>
+        <option value = "2"> Dolar américano (USD) </option>
+        <option value = "3"> Euro </option>
+    </select>
+
+    <p></p>
+
+    <p> <strong>El resultado es:</strong> </p>
+    <h2 id= "resultado"> $0.00 </h2>
+
+</center>
+
+    <script src="conversor.js"></script>
+</body>
+</html>

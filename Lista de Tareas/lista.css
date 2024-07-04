@@ -1,0 +1,151 @@
+*
+{
+    font-family: 'Helvetica';
+}
+
+body
+{
+    background-color: rgb(175, 164, 224);
+    color:rgb(59, 17, 99);
+    font-family:'Helvetica';
+}
+
+main
+{
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto;
+    width: 700px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+input, button, select
+{
+    font-size: 20px;
+}
+
+h1
+{
+    padding: 35px 25px 20px 20px;
+}
+
+#tareas
+{
+    margin: 20px;
+    padding:10px;
+}
+
+.tarea
+{
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+    height: 45px;
+    font-size: 20px;
+    color: rgb(48, 16, 122);
+}
+
+.tareas .lista li p:hover {
+	text-decoration: line-through;
+}
+
+.tarea .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+
+.tarea:hover
+{
+    background-color:rgb(179, 243, 208)
+}
+
+.tarea.checkbox-container
+{
+    width: calc(100% - 36px);
+}
+
+
+
+.todo button:hover svg
+{
+    fill:cornflowerblue;
+}
+
+#listas
+{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+
+#btn-agregar
+{
+ margin-left: 30px;
+ border-radius: 5px;
+ width: 100px;
+ height: 50px;   
+ background-color:rgb(161, 160, 236);
+ border-radius: 5px solid rgb(105, 104, 187);
+ border: 10px;
+ cursor:pointer;
+ cursor:hand;
+ text-align:center;
+ color:rgb(31, 10, 51);
+ font-weight: bold;
+}
+
+#btn-agregar:hover
+{
+    background:rgb(96, 95, 161); 
+    color: white; 
+}
+    
+
+#add-container
+{
+    background-color: #eee;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#add-container form
+{
+   display: flex;
+   align-items: baseline;
+}
+
+#add-container form select
+{
+  border: 0;
+  padding: 30px;
+  background-color: transparent;
+  width: 30%;
+  justify-content: flex-end;
+  outline: none;
+}
+
+#add-container form input
+{
+  padding: 10px 0;
+  width: 70%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+#add-container form::before
+{
+    margin: 20px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border:solid gray;
+    border-width: 0 3px 3px 0;
+    transform: rotate(-45deg);
+}

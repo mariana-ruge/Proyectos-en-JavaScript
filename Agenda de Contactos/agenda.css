@@ -1,0 +1,75 @@
+*,::after, *::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'crossorigin', sans-serif;
+}
+body
+{
+    background-color:rgb(92, 107, 173);
+    color: rgb(253, 242, 221);
+}
+.container
+{
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+.container h2
+{
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.formulario
+{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+
+.formulario input
+{
+    margin: 1rem, 0rem;
+    line-height: 3rem;
+    outline: 0;
+    border:0;
+    font-size: 15px;
+}
+
+.formulario button
+{
+    margin: 1rem, 0rem;
+    outline: 0;
+    border:0;
+    font-size: 15px;
+    height: 3rem;
+}
+
+.btn-agregar-contacto
+{
+    cursor: hand;
+    cursor: pointer;
+}
+
+.listado-de-Contactos
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.material-icons
+{
+    cursor: hand;
+    cursor: pointer;
+}

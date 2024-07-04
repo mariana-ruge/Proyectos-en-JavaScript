@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel ="stylesheet" href="agenda.css">
+    <title>Agenda de Contactos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de contactos</h1>
+        </br>
+        <div class="formulario">
+                <input type = "text" class="nombre" placeholder="Nombre" id="nombre"> 
+        </br>
+                <input type = "text" class="numero" placeholder="Número de Contacto" id="numero"> 
+        </br>
+                <input type = "text" class="direccion" placeholder="Dirección" id= "direccion"> </br>
+            
+        <button class ="btn-agregar-contacto" id="agregar-contacto"> Agregar Contacto </button>
+
+    </br>
+            <div class="listado-de-Contactos">
+                <div class="contacto">
+                    <h3>Nombre</h3>
+                    <p>Número</p>
+                    <p>Dirección</p>
+                    <span class="material-icons">
+                        remove_circle
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+  <script src="datos.js"></script>
+  <script src="agenda.js"></script>
+  
+
+</body>
+</html>
