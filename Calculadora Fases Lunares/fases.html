@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Fases Lunares</title>
+    <link rel="stylesheet" href="fases.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Fases Lunares</h1>
+    </header>
+    <br>
+    <main>
+        <br>
+        <br>
+        <div>
+            <label for="date-input">Selecciona la fecha: </label>
+            <input type="date" id="date-input" class="caja-fecha">
+            <button class="calcular-btn" id="calcular-btn">Calcular Fase Lunar</button>
+        </div>
+        <br>
+        <div id="resultado">
+            <h2>Fase Lunar: </h2>
+
+            <div id="imagen-fase-lunar" class="lunar-image"></div>
+
+            <canvas id="moon-phase"></canvas>
+        </div>
+    </main>
+    <script src="fases.js"></script>
+</body>
+</html>
